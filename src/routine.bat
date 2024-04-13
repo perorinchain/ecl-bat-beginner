@@ -1,17 +1,17 @@
-REM ƒeƒ“ƒvƒŒ[ƒgƒtƒ@ƒCƒ‹‚ÌƒpƒX‚ðÝ’è
+REM ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆãƒ•ã‚¡ã‚¤ãƒ«ã®ãƒ‘ã‚¹ã‚’è¨­å®š
 SET TEMPLATE_PATH="C:\work\sampleBat_Beginner\src\_template"
-REM ƒtƒ@ƒCƒ‹–¼‚É“ü‚ê‚éyyyyMMdd‚ðÝ’è
+REM ãƒ•ã‚¡ã‚¤ãƒ«åã«å…¥ã‚Œã‚‹yyyyMMddã‚’è¨­å®š
 SET TODAY_YYYYMMDD=%DATE:/=%
 
-REM ƒeƒ“ƒvƒŒ[ƒg‚ÌƒtƒHƒ‹ƒ_‚ðA”z‰ºŠÜ‚ß‚ÄƒRƒs[‚µ‚Ä“ú•tƒtƒHƒ‹ƒ_‚ðì¬
-XCOPY /E /I "C:\work\sampleBat_Beginner\src\_template" "C:\work\sampleBat_Beginner\src\%TODAY_YYYYMMDD%"
-REM ƒRƒs[‚µ‚½ƒtƒHƒ‹ƒ_‚ÉˆÚ“®
+REM ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆã®ãƒ•ã‚©ãƒ«ãƒ€ã‚’ã€é…ä¸‹å«ã‚ã¦ã‚³ãƒ”ãƒ¼ã—ã¦æ—¥ä»˜ãƒ•ã‚©ãƒ«ãƒ€ã‚’ä½œæˆ
+XCOPY /E /I %TEMPLATE_PATH% "C:\work\sampleBat_Beginner\src\%TODAY_YYYYMMDD%"
+REM ã‚³ãƒ”ãƒ¼ã—ãŸãƒ•ã‚©ãƒ«ãƒ€ã«ç§»å‹•
 CD %TODAY_YYYYMMDD%
-REM ƒƒ‚‚Ìƒtƒ@ƒCƒ‹–¼‚ð“ú•tƒtƒ@ƒCƒ‹‚É•ÏX
+REM ãƒ¡ãƒ¢ã®ãƒ•ã‚¡ã‚¤ãƒ«åã‚’æ—¥ä»˜ãƒ•ã‚¡ã‚¤ãƒ«ã«å¤‰æ›´
 RENAME "memo_yyyyMMdd.txt" "memo_%TODAY_YYYYMMDD%.txt"
 
-REM ƒƒ‚’ ‚Åƒƒ‚ƒtƒ@ƒCƒ‹‚ðŠJ‚­
+REM ãƒ¡ãƒ¢å¸³ã§ãƒ¡ãƒ¢ãƒ•ã‚¡ã‚¤ãƒ«ã‚’é–‹ã
 START notepad "memo_%TODAY_YYYYMMDD%.txt"
 
-REM ƒRƒ}ƒ“ƒhƒvƒƒ“ƒvƒg‚ð•Â‚¶‚é
+REM ã‚³ãƒžãƒ³ãƒ‰ãƒ—ãƒ­ãƒ³ãƒ—ãƒˆã‚’é–‰ã˜ã‚‹
 EXIT
