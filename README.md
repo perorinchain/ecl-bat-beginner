@@ -152,20 +152,20 @@ C:\work>start notepad
 以下の手順でWindowsバッチの実行ファイルを作ってみましょう！
 1. テキストファイルを新規作成して、ファイル名を「XXXXX.bat」（「XXXXX」のところは何でも良い）にする
 2. メモ帳を開いて、作成した「XXXXX.bat」をドラッグ＆ドロップ（これで、メモ帳で「.bat」ファイルの編集ができる）
-3. 「XXXXX.bat」に「echo "test ps1 file"」と書きこんで保存してファイルを閉じる（「×」で閉じてOK）
+3. 「XXXXX.bat」に「echo "test bat file"」と書きこんで保存してファイルを閉じる（「×」で閉じてOK）
 4. コマンドプロンプトを開いて、以下のようにファイルを実行してみる
 ```
 c:\work>C:\work\testEcho.bat
 
-c:\work>echo "test ps1 file"
-"test ps1 file"
+c:\work>echo "test bat file"
+"test bat file"
 ```
 
 ### 実行時にコマンドが出るのを消してみる：
-「XXXXX.bat」に「echo "test ps1 file"」と書いただけでは、「XXXXX.bat」を実行したときに `c:\work>echo "test ps1 file"` のように、「.bat」ファイルで実行するコマンドが表示されます。以下のように、「XXXXX.bat」内に「@echo off」を入れると実行するコマンドが表示されるのを消すことができます。
+「XXXXX.bat」に「echo "test bat file"」と書いただけでは、「XXXXX.bat」を実行したときに `c:\work>echo "test bat file"` のように、「.bat」ファイルで実行するコマンドが表示されます。以下のように、「XXXXX.bat」内に「@echo off」を入れると実行するコマンドが表示されるのを消すことができます。
 ```
 @echo off
-echo "test ps1 file"
+echo "test bat file"
 ```
 
 
