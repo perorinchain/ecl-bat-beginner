@@ -143,7 +143,7 @@ C:\work>start notepad
 ```
 
 ### アプリ起動
-「.exe」ファイルをコマンドプロンプトから実行できます。たとえば、Windows Media Playerで動画を再生してみましょう。
+「.exe」ファイルをコマンドプロンプトから実行できます。たとえば、Windows Media Playerで動画を全画面再生してみましょう。
 ```
 C:\work>"C:\Program Files (x86)\Windows Media Player\wmplayer.exe" /fullscreen <動画ファイルのパス>
 ```
