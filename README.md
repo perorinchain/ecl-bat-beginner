@@ -142,6 +142,15 @@ C:\work>start notepad
 
 ```
 
+### certutil
+`-hashfile`オプションでファイルのハッシュ値を計算できます。ダウンロードしたファイルの整合性チェックに使ったりします。`MD5`部分はハッシュ計算のアルゴリズムを指定しています（他も使える）。
+```
+C:\work>certutil -hashfile C:\work\test.txt MD5
+MD5 ハッシュ (対象 C:\work\test.txt):
+8744320a5722f94517c2f87699a9aeb1
+CertUtil: -hashfile コマンドは正常に完了しました。
+```
+
 ### アプリ起動
 「.exe」ファイルをコマンドプロンプトから実行できます。たとえば、Windows Media Playerで動画を全画面再生してみましょう。
 ```
