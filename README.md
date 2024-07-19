@@ -142,6 +142,13 @@ C:\work>start notepad
 
 ```
 
+### アプリ起動
+「.exe」ファイルをコマンドプロンプトから実行できます。たとえば、Windows Media Playerで動画を再生してみましょう。
+```
+C:\work>"C:\Program Files (x86)\Windows Media Player\wmplayer.exe" <動画ファイルのパス>
+```
+※ファイルパスに空白が含まれる場合は、パスを「"」で囲んだ方が良いです。
+
 ### exit
 コマンドプロンプトを終了します。
 
