@@ -147,7 +147,7 @@ C:\work>start notepad
 ```
 C:\work>"C:\Program Files (x86)\Windows Media Player\wmplayer.exe" /fullscreen <動画ファイルのパス>
 ```
-※ファイルパスに空白が含まれる場合は、パスを「"」で囲んだ方が良いです。<br>
+※ファイルパスに空白が含まれる場合は、パスを「"」で囲む必要があります。<br>
 ※`/fullscreen`は、起動時にフルスクリーンにする[オプション](https://learn.microsoft.com/ja-jp/previous-versions/windows/desktop/wmp/command-line-parameters)です。
 
 ### exit
