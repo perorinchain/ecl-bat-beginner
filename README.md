@@ -150,6 +150,7 @@ MD5 ハッシュ (対象 C:\work\test.txt):
 8744320a5722f94517c2f87699a9aeb1
 CertUtil: -hashfile コマンドは正常に完了しました。
 ```
+たとえば[Ubuntuのリリース情報ページ](https://releases.ubuntu.com/noble/)に[SHA256SUMS](https://releases.ubuntu.com/noble/SHA256SUMS)というファイルがあって、これを開くとisoファイルのSHA256ハッシュ値が載っています。ダウンロードしたisoファイルのSHA256ハッシュ値を計算してみて、これがSHA256SUMSに書かれたハッシュ値と合っていれば、（ファイルの内容がちょっとでも違うとまったく別のハッシュ値になるはずなので）破損などなく正しいファイルをダウンロードできた（はず）と考えられます。
 
 ### アプリ起動
 「.exe」ファイルをコマンドプロンプトから実行できます。たとえば、Windows Media Playerで動画を全画面再生してみましょう。
